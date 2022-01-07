@@ -6,6 +6,10 @@ export interface ButtonProps extends HTMLProps<HTMLButtonElement> {
   label: string;
 }
 
-export const Button = (props: ButtonProps) => {
-  return <button className="button">{props.label}</button>;
-};
+export function Button({ label }: ButtonProps) {
+  return (
+    <button className="button" type="button">
+      {label}
+    </button>
+  );
+}

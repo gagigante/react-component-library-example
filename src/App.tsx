@@ -1,4 +1,4 @@
-import { Button } from './components'
+import { Button } from './components';
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
 
       <Button label="Teste" />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
