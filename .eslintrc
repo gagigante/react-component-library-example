@@ -46,9 +46,11 @@
     "import/no-extraneous-dependencies": [
       "error",
       {
-        "devDependencies": ["**/*.test.ts", "**/*.spec.tsx"]
+        "devDependencies": ["**/*.test.ts", "**/*.spec.tsx", "**/*.stories.tsx"]
       }
     ], // allows dev dependencies imports for test files
+    "react/function-component-definition": "off",
+    "react/jsx-props-no-spreading": "off",
     "react/react-in-jsx-scope": "off",
     "prettier/prettier": ["error", { "singleQuote": true }],
     "import-helpers/order-imports": [
